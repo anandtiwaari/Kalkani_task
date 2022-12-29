@@ -1,7 +1,7 @@
 import "./App.css";
 import axios from "axios";
 import { useState, useEffect } from "react";
-
+import nodataFound from "./nothing-found.png";
 function App() {
   const [InputValue, setInputValue] = useState("");
   const [ApiData, setApiData] = useState([]);
@@ -126,7 +126,12 @@ function App() {
             })}
           </div>
         ) : (
-          <span>No data Found</span>
+          <div className="no_data d-flex justify-content-center align-items-center ">
+            <h4>
+              No data Found
+              <img src={nodataFound} alt="" />
+            </h4>
+          </div>
         )}
         <nav aria-label="pagination_nav">
           <ul className="pagination pagination_nav mt-2">

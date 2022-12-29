@@ -126,6 +126,10 @@ html,
   cursor: pointer;
 }
 
+.no_data {
+  margin-top: 6rem;
+}
+
 @media only screen and (max-width: 600px) {
   .navigation_anchor {
     border-left: 2px solid #aaaaaa;
