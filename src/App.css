@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.input_tag {
+  border: 1px solid grey;
+}
+.card-img-top {
+  border-radius: 50%;
+}
+.image_wrapper {
+  height: 50px;
+  width: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 50%;
+}
+
+.image_wrapper img {
+  height: 100%;
+  width: 100%;
+}
+.badge {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-text {
+  /* width: 300px; */
+  white-space: nowrap;
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.new_card {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.pagination_nav {
+  display: flex;
+  justify-content: end;
+}
+
+.currentColor {
+  background-color: red;
+}
+.arrowIcon {
+  border-left: 1px solid black;
+}
+
+.image_wrap img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.main_div {
+  /* border: 1px solid black; */
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+  /* background: linear-gradient(
+    90deg,
+    hsla(212, 35%, 58%, 1) 0%,
+    hsla(218, 32%, 80%, 1) 100%
+  ); */
+
+  border-radius: 15px;
+}
+
+.navigation {
+  /* position: relative;
+    left: 72px; */
+}
+
+.navigation_anchor {
+  border-left: 2px solid #aaaaaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 1rem; */
+}
+
+.left_div {
+  margin-left: 32px;
+}
+
+.favourites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favourites span {
+  /* color: white; */
+  font-weight: 500;
+}
+.input_class {
+  border-radius: 22px !important;
+}
+
+.input_area {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: none !important;
+  margin-top: 2rem;
+}
+
+html,
+.anime_background {
+  /* background: linear-gradient(90deg, hsla(340, 80%, 69%, 1) 0%, hsla(15, 93%, 71%, 1) 100%); */
+  background: linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+}
+
+.form-switch {
+  cursor: pointer;
+}
+.form-switch label {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .navigation_anchor {
+    border-left: 2px solid #aaaaaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 1rem; */
+    width: 36px;
+  }
+
+  .favourites span {
+    /* color: white; */
+    font-weight: 500;
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .right_div {
+    margin-left: -2rem;
+  }
+
+  .nick_names span {
+    font-size: 10px;
+  }
+  .card-text {
+    width: 150px;
+  }
+}
